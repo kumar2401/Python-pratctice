@@ -1,0 +1,5 @@
+player_name = input("Enter the player name - ")
+games_played= int(input("Enter no of games played - "))
+total_score = int(input("provide total score - "))
+avg_score = round(total_score/games_played)
+print(f" Player: {player_name} \n Games Played: {games_played} \n Total Score: {total_score}  \n Average Score: {avg_score}")
